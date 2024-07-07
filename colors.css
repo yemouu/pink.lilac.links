@@ -1,0 +1,16 @@
+:root {
+  --bg-color: #efefef;
+  --fg-color: #1f1f1f;
+  --button-color: #fdfdfd;
+  --button-color-hover: #f6f6f6;
+}
+
+/* TODO: The dark mode is REALLY bad, I'll look into redoing the colors later*/
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #1f1f1f;
+    --fg-color: #efefef;
+    --button-color: #121212;
+    --button-color-hover: #191919;
+  }
+}
